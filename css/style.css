@@ -1,0 +1,142 @@
+.div1{width: 100px;
+height: 100px;
+position: absolute;
+text-align: center;
+
+background-color: 425F57;
+animation-name: an1;
+animation-duration: 5s;}
+
+@keyframes an1{0% {left: 0px;}
+100% {left: 90%}}
+
+.div2{width: 100px;
+height: 100px;
+position: absolute;
+border-radius: 10%;
+margin-top: 120px;
+visibility: hidden;
+
+background-color: 749F82;
+animation-name: an2;
+animation-duration: 5s;
+animation-delay: 5s;}
+
+@keyframes an2{0% {left: 90%;
+	visibility: visible;}
+
+100% {left: 0px;
+border-radius: 10%}}
+
+.div3{width: 100px;
+height: 100px;
+position: absolute;
+border-radius: 20%;
+margin-top: 240px;
+visibility: hidden;
+
+background-color: A8E890;
+animation-name: an3;
+animation-duration: 5s;
+animation-delay: 10s;}
+
+@keyframes an3{0% {left: 0px;
+visibility: visible;}
+
+100% {left: 90%;
+border-radius: 20%}}
+
+
+.div4{width: 100px;
+height: 100px;
+position: absolute;
+border-radius: 30%;
+margin-top: 360px;
+visibility: hidden;
+
+background-color: 425F57;
+animation-name: an4;
+animation-duration: 5s;
+animation-delay: 15s;}
+
+@keyframes an4{0% {left: 90%;
+	visibility: visible;}
+
+100% {left: 0px;
+border-radius: 30%}}
+
+.div5{width: 100px;
+height: 100px;
+position: absolute;
+border-radius: 35%;
+margin-top: 480px;
+visibility: hidden;
+
+background-color: 749F82;
+animation-name: an3;
+animation-duration: 5s;
+animation-delay: 20s;}
+
+@keyframes an5{0% {left: 0px;
+visibility: visible;}
+
+100% {left: 90%;
+border-radius: 35%}}
+
+.div6{width: 100px;
+height: 100px;
+position: absolute;
+border-radius: 39%;
+margin-top: 600px;
+visibility: hidden;
+
+background-color: CFFF8D;
+animation-name: an6;
+animation-duration: 5s;
+animation-delay: 25s;}
+
+@keyframes an6{0% {left: 90%;
+	visibility: visible;}
+
+100% {left: 0px;
+border-radius: 39%}}
+
+.div7{width: 100px;
+height: 100px;
+position: absolute;
+border-radius: 45%;
+margin-top: 720px;
+visibility: hidden;
+
+background-color: 425F57;
+animation-name: an7;
+animation-duration: 5s;
+animation-delay: 30s;}
+
+@keyframes an7{0% {left: 0px;
+visibility: visible;}
+
+100% {left: 90%;
+border-radius: 45%}}
+
+.div8{width: 100px;
+height: 100px;
+position: absolute;
+border-radius: 50%;
+margin-top: 840px;
+visibility: hidden;
+
+background-color: 749F82;
+animation-name: an8;
+animation-duration: 5s;
+animation-delay: 35s;}
+
+@keyframes an8{0% {left: 90%;
+	visibility: visible;}
+	100% {left: 0px;
+border-radius: 50%}}
+
+p{padding: 10px 27px;
+font-size: 20px;}
+.p1{padding: 3px 20;
+font-size: 18px;}
